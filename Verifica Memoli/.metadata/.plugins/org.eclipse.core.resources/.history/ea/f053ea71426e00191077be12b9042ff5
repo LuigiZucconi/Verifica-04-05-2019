@@ -1,0 +1,16 @@
+public class News {
+
+	New notizie[];
+	
+	public News() {
+		
+		
+	}
+
+	public News(New[] notizie) {
+		super();
+		this.notizie = notizie;
+	}
+	
+	
+}

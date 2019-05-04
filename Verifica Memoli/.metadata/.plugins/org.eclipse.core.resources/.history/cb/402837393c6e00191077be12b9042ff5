@@ -1,0 +1,55 @@
+public class New {
+
+	private String id;
+	private String titolo;
+	private String articolo;
+	
+	public New() {
+		
+		
+	}
+	
+	public New(String id, String titolo, String articolo) {
+		
+		this.id = id;
+		this.titolo = titolo;
+		this.articolo = articolo;
+	}
+	
+	public New(New n) {
+		
+		this.id = n.id;
+		this.titolo = n.titolo;
+		this.articolo = n.articolo;
+	}
+
+	
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getTitolo() {
+		return titolo;
+	}
+
+	public void setTitolo(String titolo) {
+		this.titolo = titolo;
+	}
+
+	public String getArticolo() {
+		return articolo;
+	}
+
+	public void setArticolo(String articolo) {
+		this.articolo = articolo;
+	}
+
+	
+	public String toString() {
+		return "New [id=" + id + ", titolo=" + titolo + ", articolo=" + articolo + "]";
+	}
+}
